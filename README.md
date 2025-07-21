@@ -13,7 +13,7 @@ The application follows a Model–View–Controller (MVC) architecture.
 In this assignment I was responsible for designing, implementing and testing the model and also connecting it to the controller.
 
 For the architecture look at the class diagram: 
-![Class Diagram](./UOCtron/docs/class_diagram.svg)
+[Class Diagram](./UOCtron/docs/class_diagram.svg)
 
 ## Object Oriented analysis:
 In the model I used common OOD concepts such as, Encapsulation, Abstraction, Inheritence, Polimorphism and SOLID principles.
