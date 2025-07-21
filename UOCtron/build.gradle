@@ -1,0 +1,81 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+group = 'edu.uoc.uoctron'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.json:json:20250517'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+javafx {
+    version = '21'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+application {
+    mainModule = 'edu.uoc.uoctron'
+    mainClass = 'edu.uoc.uoctron.UOCtron'
+}
+
+tasks.register('testBasic', Test) {
+    group = "Verification"
+    useJUnitPlatform {
+        includeTags "basic"
+    }
+}
+
+tasks.register('testAdvanced', Test) {
+    group = "Verification"
+    useJUnitPlatform {
+        includeTags "advanced"
+    }
+}
+
+tasks.register('testAll', Test) {
+    group = "Verification"
+    useJUnitPlatform {
+        includeTags "basic", "advanced", "special"
+    }
+}
+
+//Uncomment task "jar" if you want to create a fat jar (i.e. classes + dependencies).
+//If you generate a fat jar, then the user's computer must have JRE.
+jar {
+    manifest {
+        attributes (
+                'Main-Class' : 'edu.uoc.uoctron.Main'
+        )
+    }
+    from {
+        configurations.runtimeClasspath.collect {
+            it.isDirectory() ? it : zipTree(it) }
+    } {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+}
+
+//If you want to create a Runtime image with jlink, then
+//you must comment the previous task "jar" and uncomment the
+//following tasks: "jlink" and "jlinkZip"
+/*jlink {
+   // imageZip = project.file("${buildDir}/distributions/app-${javafx.platform.classifier}.zip")
+    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+    launcher {
+        name = 'EdUOCation'
+    }
+}*/
