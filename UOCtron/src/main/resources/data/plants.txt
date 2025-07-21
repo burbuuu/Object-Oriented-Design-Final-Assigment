@@ -1,0 +1,40 @@
+#Type,Name,Latitude,Longitude,City,Max_Capacity_MW
+NUCLEAR,Almaraz I Nuclear Power Plant,39.8081,-5.6956,Almaraz,1300.0
+NUCLEAR,Almaraz II Nuclear Power Plant,39.8081,-5.6956,Almaraz,1300.0
+NUCLEAR,Ascó I Nuclear Power Plant,41.1833,0.5667,Ascó,1275.0
+NUCLEAR,Ascó II Nuclear Power Plant,41.1833,0.5667,Ascó,1275.0
+NUCLEAR,Cofrentes Nuclear Power Plant,39.2333,-1.0667,Cofrentes,1375.0
+NUCLEAR,Trillo Nuclear Power Plant,40.7,-2.6167,Trillo,1325.0
+NUCLEAR,Vandellós II Nuclear Power Plant,40.9667,0.8667,Vandellòs,1350.0
+HYDRO,Aldeadávila Hydroelectric Plant,41.2,-6.6333,Aldeadávila de la Ribera,1550.0
+HYDRO,José María de Oriol Hydroelectric Plant,39.7167,-6.3833,Alcántara,1200.0
+HYDRO,Villarino Hydroelectric Plant,41.2,-6.6333,Villarino de los Aires,1075.0
+HYDRO,Cortes-La Muela Pumped Hydro Plant,39.2,-0.6167,Cortes de Pallás,2187.5
+HYDRO,Saucelle Hydroelectric Plant,41.0,-6.7167,Saucelle,650.0
+HYDRO,Gigabateria do Tâmega,41.6833,-7.8,Vila Real,1450.0
+HYDRO,La Serena Hydroelectric Plant,38.75,-5.95,Villanueva de la Serena,1100.0
+COMBINED_CYCLE,Castellón Combined Cycle Plant,39.9833,-0.0333,Castellón,2062.5
+COMBINED_CYCLE,Sagunto Combined Cycle Plant,39.6667,-0.2667,Sagunto,1500.0
+COMBINED_CYCLE,Bahía de Bizkaia Plant,43.3167,-3.0167,Ciérvana,975.0
+COMBINED_CYCLE,Castejón Combined Cycle Plant,42.05,-1.7,Castejón,1050.0
+COMBINED_CYCLE,Soto de Ribera Plant,43.3167,-5.8667,Ribera de Arriba,1525.0
+COAL,Aboño Thermal Power Plant,43.55,-5.7167,Carreño,1150.0
+COAL,Es Murterar Thermal Power Plant,39.8167,3.0833,Alcudia,425.0
+COAL,Meirama Thermal Power Plant,43.2167,-8.4167,Cerceda,687.5
+COAL,Los Barrios Thermal Power Plant,36.1833,-5.4333,Los Barrios,700.0
+WIND,El Andévalo Wind Farm,37.8333,-6.95,Huelva,730.0
+WIND,Maranchón Wind Farm,40.9667,-2.1833,Guadalajara,520.0
+WIND,Peña del Cuervo Wind Farm,42.4333,-2.85,La Rioja,337.5
+WIND,Penamacor Wind Farm,40.1667,-7.15,Penamacor,375.0
+SOLAR,Núñez de Balboa Solar Plant,38.3167,-6.25,Usagre,1250.0
+SOLAR,Francisco Pizarro Solar Plant,39.4667,-6.3833,Cáceres,1475.0
+SOLAR,Andasol Solar Plant,37.2167,-3.0667,Granada,375.0
+SOLAR,Flotante de Alqueva Floating Solar Plant,38.1667,-7.5,Moura,12.5
+SOLAR,Solara 4 Solar Plant,37.1833,-8.3333,Alcoutim,550.0
+BIOMASS,La Loma Biomass Plant,37.8167,-3.0667,Villanueva del Arzobispo,40.0
+BIOMASS,Cogeneración Puertollano,38.6833,-4.1167,Puertollano,50.0
+GEOTHERMAL,Geothermal Experimental Plant,43.2667,-1.9833,San Sebastián,12.5
+GEOTHERMAL,Geotermia Pico Vermelho,37.8,-25.5,Ponta Delgada (Azores),32.5
+FUEL_GAS,Central térmica de Castelnou Energía,41.2333,-0.3833,Castelnou,987.5
+FUEL_GAS,Central térmica de Sabón,43.3319,-8.5,Arteixo,500.0
+FUEL_GAS,Central térmica de Escombreras,37.5653,-0.9514,Cartagena,1037.5

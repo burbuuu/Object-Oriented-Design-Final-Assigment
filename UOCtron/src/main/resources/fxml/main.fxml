@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500" prefWidth="650" styleClass="bg-main" stylesheets="@../styles/uoc.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uoc.uoctron.view.MainViewController">
+    <Button layoutX="208.0" layoutY="345.0" onMouseClicked="#newLogin" styleClass="btn" text="Start" />
+    <Button layoutX="377.0" layoutY="345.0" onMouseClicked="#readCredits" styleClass="btn" text="Credits" />
+</AnchorPane>

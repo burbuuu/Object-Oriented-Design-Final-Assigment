@@ -1,0 +1,25 @@
+.bg-play {
+    -fx-background-image: url('../images/map.jpg'); -fx-background-size: cover; -fx-background-position: center;
+}
+
+.bg-main {
+    -fx-background-image: url('../images/main.jpg'); -fx-background-size: cover; -fx-background-position: center;
+}
+
+.bg-credits {
+    -fx-background-image: url('../images/credits.jpg'); -fx-background-size: cover; -fx-background-position: center;
+}
+
+.btn {
+    -fx-background-color: #000078;
+    -fx-text-fill: #fff;
+    -fx-font-family: "Arial, Helvetica, sans-serif";
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.btn:hover {
+    -fx-background-color: #4D4DB8;
+}

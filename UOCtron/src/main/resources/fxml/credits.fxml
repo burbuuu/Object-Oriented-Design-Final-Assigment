@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500" prefWidth="650" styleClass="bg-credits" stylesheets="@../styles/uoc.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uoc.uoctron.view.CreditsViewController">
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="267.0" layoutY="23.0" styleClass="credits-title" text="Credits" textAlignment="CENTER" textFill="#000078">
+        <font>
+            <Font name="System Bold" size="36.0" />
+        </font></Label>
+
+    <Label alignment="TOP_CENTER" layoutX="97.0" layoutY="147.0" prefHeight="300.0" prefWidth="459.0" styleClass="credits-text" text="This application was made by DPOO Team with love." textAlignment="CENTER">
+        <font>
+            <Font size="14.0" />
+        </font></Label>
+    <Label alignment="TOP_CENTER" layoutX="97.0" layoutY="167.0" prefHeight="300.0" prefWidth="459.0" styleClass="credits-text" text="Iris Garcia Gomez [igarciagomez4@uoc.edu]" textAlignment="CENTER">
+        <font>
+            <Font size="14.0" />
+        </font></Label>
+    <Button layoutX="289.0" layoutY="349.0" onMouseClicked="#backMain" styleClass="btn" text="Back" textAlignment="CENTER" />
+</AnchorPane>

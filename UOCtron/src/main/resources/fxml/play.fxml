@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500" prefWidth="650" styleClass="bg-play" stylesheets="@../styles/uoc.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uoc.uoctron.view.PlayViewController">
+    <Button styleClass="btn" text="Back" fx:id="backButton" onAction="#setupBackButton"
+            AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0"/>
+    <Pane fx:id="mapPane" prefHeight="400" prefWidth="630"
+          AnchorPane.topAnchor="50.0" AnchorPane.leftAnchor="10.0"
+          AnchorPane.rightAnchor="10.0" AnchorPane.bottomAnchor="50.0"
+          style="-fx-background-color: transparent">
+    </Pane>
+    <HBox spacing="10" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+        <DatePicker fx:id="datePicker"/>
+        <Spinner fx:id="hourSpinner" prefWidth="60"/>
+        <Spinner fx:id="minuteSpinner" prefWidth="60"/>
+        <Button text="Simulate Blackout" onAction="#onSimulateBlackoutClicked"/>
+    </HBox>
+</AnchorPane>
