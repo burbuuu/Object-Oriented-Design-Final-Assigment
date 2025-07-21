@@ -4,7 +4,7 @@
 **Program:** Master’s in Game Development
 
 
-## 🛠️ Tech Stack
+## Tech
 - **Language:** Java 
 - **Build tools:** Gradle 
 - **Testing framework:** JUnit
